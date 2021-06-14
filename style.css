@@ -1,0 +1,75 @@
+body {
+background-image: linear-gradient(to right,#529aff, #52f9ff);
+}
+container {
+    font-family: 'century gothic';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(240,240,240);
+    width: 90%; height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 50px;
+    text-shadow: 5px 5px rgb(30,30,30);
+}
+form {
+    font-family: 'cambria math';
+}
+input {
+    width: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'cambria math';
+    margin: 0 10px;
+    background-color: rgb(30,30,30);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+label {
+    font-size: 25px;
+    text-shadow: 1px 1px rgb(30,30,30);
+    font-weight: bold;
+}
+button {
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(100,100,250);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+button:hover {
+    filter: brightness(90%);
+}
+#error {
+    color: red;
+    font-size: 20px;
+    visibility: hidden;
+}
+.values {
+    visibility: hidden;
+    margin: 5px;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(30,30,30);
+}
+@media (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+    input {
+        font-size: 15px;
+        margin: 0;
+    }
+    label {
+        font-size: 15px;
+    }
+}
